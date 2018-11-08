@@ -1,0 +1,275 @@
+body {
+    font-family: 'Gafata'; sans-serif;
+    color: black;
+    background-color: #ffffff;
+}
+@font-face {
+    font-family: "Wendy One";
+    src: url(https://fonts.googleapis.com/css?family=Wendy+One)
+}
+
+@font-face {
+    font-family: "Indie Flower";
+    src: url(https://fonts.googleapis.com/css?family=Indie+Flower)
+}
+
+@font-face {
+    font-family: "Gafata";
+    src: url(https://fonts.googleapis.com/css?family=Gafata)
+}
+
+h1 { 
+    color: black;
+    font-size: 1em;
+    text-align: left;
+    position: relative;
+    font-family: 'Gafata'; sans-serif;
+}
+
+h2 {
+    color: black;
+    text-align: left;
+    position: relative;
+    font-family: 'Gafata'; sans-serif;
+    
+}
+
+h3 {
+    color: black;
+    text-align: left;
+    position: relative;
+    font-family: 'Gafata'; sans-serif;
+}
+
+p {
+    font-size: 1.1em;
+    color: black;
+    font-family: 'Gafata'; sans-serif;
+    text-align: left;
+    width: 750px;
+    margin: 25px 350px 0px 350px
+    /*width: 750px;
+    margin: 10px 350px 0px 200px;*/
+}
+
+ul {
+    font-size: 1em;
+    color: #9F1F3F;
+    font-family: 'Gafata'; sans-serif;
+}
+
+ul ul {
+    font-size: 1em;
+}
+
+li{
+    color: black;
+}
+
+li a:hover {
+    color: #FF6600;
+}
+
+.rank {
+    font-size: 1em;
+    color: black;
+}
+
+#header {
+    text-align: center;
+    background-image: url('../images/ice.jpg');
+    background-position: center top;
+    padding-top: 10px;
+}
+
+img {
+    display: inline-block;
+    margin: 0 auto;
+    height: 10%;
+    width: 10%;
+}
+
+img.logo {
+    display: inline-block;
+    margin: 0 auto;
+    height: 45%;
+    width: 45%;
+}
+
+#footer {
+    position:absolute;
+    width: 100%;
+    text-align: center;
+    font-size: .75em;
+}
+
+#faq {
+    font-size: .90em
+}
+
+ul.menu {
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A01F3E;
+}
+
+li.menu {
+    float: left;
+}
+
+li.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 75px;
+    text-decoration: none;
+}
+
+li.menu a:hover {
+    background-color: #2F105E;
+}
+
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: top;
+}
+
+td, th {
+    border: thin dotted gray;
+    padding: 5px;
+}
+
+caption {
+    font-style: italic;
+    padding-top: 8px;
+}
+
+/*#col {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 2em; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2em; /* Firefox */
+    column-gap: 2em;
+}*/
+
+.small {
+    font-size: .25em;
+}
+
+.text {
+    font-size: .75em
+    font-family: 'Wendy One', sans-serif;
+}
+
+#main {
+    text-align: left;
+    width: 750px;
+    margin: -225px 350px 0px 650px;
+}
+
+#welcome {
+    font-family: 'Wendy One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 225px;
+    width: 300px;
+}
+
+#motto {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 225px;
+    width: 300px;
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+}
+
+#primary_nav_wrap
+{
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:center;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}

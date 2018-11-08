@@ -1,0 +1,260 @@
+/****** General Styles *********/
+
+
+
+@font-face {
+    font-family: "Wendy One";
+    src: url(https://fonts.googleapis.com/css?family=Wendy+One)
+}
+
+@font-face {
+    font-family: "Acme";
+    src: url(https://fonts.googleapis.com/css?family=Acme)
+}
+
+@font-face {
+    font-family: "Indie Flower";
+    src: url(https://fonts.googleapis.com/css?family=Indie+Flower)
+}
+
+@font-face {
+    font-family: "Overlock";
+    src: url(https://fonts.googleapis.com/css?family=Overlock)
+}
+
+
+body {
+    font-family: 'Overlock'; sans-serif;
+    color: black;
+    background-color: #ffffff;
+}
+h1 { 
+    color: black;
+    font-size: 1.5em;
+    text-align: left;
+    position: relative;
+    font-family: "Overlock", sans-serif;
+}
+
+h2 {
+    color: black;
+    font-size: 1em;
+    text-align: left;
+    position: relative;
+    font-family: "Overlock", sans-serif;
+    
+}
+
+h3 {
+    font-family: 'Overlock', sans-serif !important;
+    color: black;
+    font-size: 14pt;
+    text-align: left;
+    margin-left: 350px
+    
+}
+
+p {
+    font-size: 1.1em;
+    font-family: "Overlock", sans-serif;
+    color: #9F1F3F; 
+ /*   text-align: left;
+    width: 750px;
+    margin: 25px 350px 0px 350px;*/
+}
+p2 {
+    font-size:1.3em;
+    font-family: "Acme", sans-serif !important;
+    color: black; 
+}
+
+
+ul  {
+    color: #9F1F3F;   
+    list-style-position: inside;
+}
+
+iframe {
+    float: top;
+    margin-left: 300px;
+    padding-right: 20px;
+}
+
+form {
+    display: inline-block;
+}
+
+.column {
+    font-family: "Overlock", sans-serif;
+    display: inline-block;
+    margin-left: 200px;
+    vertical-align: top;   
+}
+
+.content {
+    font-family: "Overlock", sans-serif;
+    text-align: left;
+    font-size: 1em;
+    margin: 25px 350px 0px 350px;
+}
+
+.small {
+    margin-left: 5px;
+    font-size: .8em;
+}
+
+.larger {
+    font-size: 1.5em;
+}
+
+.list {
+    font-size: 1em;
+    color: black;
+    font-family: "Overlock", sans-serif;
+    text-align: left;
+    margin: 25px 350px 0px 350px
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#main {
+    font-family: "Overlock", sans-serif;
+    text-align: left;
+    font-size: 16px;
+    color: #9F1F3F;   
+    width: 650px;
+    margin: -250px 250px 0px 550px;
+}
+
+#welcome {
+    font-family: 'Wendy One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 225px;
+    width: 300px;
+}
+
+#motto {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 225px;
+    width: 300px;
+}
+
+
+/****** Header Style *********/
+#header {
+    text-align: center;
+    background-image: url('../images/ice.jpg');
+    background-position: center top;
+    padding-top: 10px;
+    
+}
+
+
+/****** Navigation Bar ******/
+
+nav {
+    margin: -15px auto;
+    text-align: center;
+}
+nav ul ul {
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul {
+    /*background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #efefef 0%, #bbbbbb 100%) repeat scroll 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.15);*/
+    display: inline-table;
+    font-family: "Overlock", sans-serif;
+    font-size: 1.15em;
+    list-style: outside none none;
+    padding: 0 20px;
+    position: relative;
+}
+nav ul::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+nav ul li {
+    float: left;
+}
+nav ul li:hover {
+    /*background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #4f5964 0%, #5f6975 40%) repeat scroll 0 0;*/
+}
+nav ul li:hover a {
+    color: #2f105e;
+}
+nav ul li a {
+    color: #a01f3e;
+    font-weight: bold;
+    display: block;
+    padding: 25px 40px;
+    text-decoration: none;
+}
+nav ul ul {
+    background: #C9CACE none repeat scroll 0 0;
+    border-radius: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+nav ul ul li {
+    /*border-bottom: 1px solid #575f6a;*/
+    border-top: 1px solid #6b727c;
+    float: none;
+    position: relative;
+}
+nav ul ul li a {
+    color: #C9CACE;
+    padding: 15px 40px;
+}
+nav ul ul li a:hover {
+    background: #C9CACE none repeat scroll 0 0;
+}
+nav ul ul ul {
+    left: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/****** Footer Style *********/
+#footer {
+  position: relative;
+  Text-align: center;
+  font-size: .75em;
+  /*margin-top: -180px; negative value of footer height*/
+  height: 180px;
+  clear: both;
+}
+
+#footer img {
+    height: 25 %;
+    width: 15%;
+}
+
+.push {
+    height: 4em;
+}
+
